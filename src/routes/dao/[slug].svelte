@@ -1,5 +1,6 @@
 <script context="module">
 	import { page } from '$app/stores';
+	import FundedList from "../../lib/FundedList/index.svelte"
 	import funded from "../../data/funded.json"
 </script>
 
@@ -7,32 +8,14 @@
 <section>
 	<div class="partner">
 		<div>{$page.params.slug}</div>
+		<div>twitter, discord, discourse, website, radicle/github</div>
 		<div>funding range</div>
 	</div>
 	<div class="cardsheader">
 		<h2>partner</h2>
+		<div>funding range</div>
 	</div>
-	<div class="container">
-		<div class="fundedheader">
-			<h2>funded</h2>
-		</div>
-		{#each funded as f}
-			<a href={`/${f.name}`}>
-			<div class="fundedcard">
-				<div class="avatarrow">
-				<img class="avatar" src={f.image_url} alt="logo" />
-				<div>
-					<h4>{f.name}</h4>
-					<div class="links">
-					<p>{f.amount}</p>
-					<a href={f.website_url} target="_blank">learn more</a>
-					</div>
-				</div>
-				</div>
-			</div>
-			</a>
-		{/each}
-	</div>
+	<FundedList funded={funded} />
 </section>
 
 <style>
@@ -47,43 +30,7 @@
 		border-bottom:1px solid rgba(0, 0, 0, 0.3);
 	}
 	.partner {
+		margin-top: 30px;
 		color: white;
-	}
-	.container {
-	  margin-left: 1rem;
-	}
-	.fundedheader {
-	  color: white;
-	  padding: 1rem;
-	}
-	.fundedcard {
-	  background-color: #161b22;
-	  border: 1px solid black;
-	  color: white;
-	  padding: 1rem;
-	}
-	.avatarrow {
-	  display: flex;
-	  flex-direction: row;
-	  grid-gap: 1rem;
-	}
-	.avatar {
-	  border-radius: 100%;
-	  width: 15vw;
-	  height: 15vw;
-	}
-	p, a {
-	  margin: 5px 0;
-	}
-	.links {
-	  display: flex;
-	  flex-direction: row;
-	  grid-gap: 10px;
-	}
-	@media (min-width: 640px) { 
-	  .avatar {
-		width: 3vw;
-		height: 3vw;
-	  }
 	}
 </style>

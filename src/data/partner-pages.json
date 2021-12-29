@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Radicle",
+        "about": "/assets/images/logos/developerdao.png",
+        "team": [
+            { "name": "nassar" },
+            { "name": "abbey" }
+        ],
+        "funding-types": ["incubator", "grant"]
+    }
+]

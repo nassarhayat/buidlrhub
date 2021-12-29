@@ -20,12 +20,7 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	background-color: var(--primary-color);
-	background: linear-gradient(
-		180deg,
-		var(--primary-color) 0%,
-		var(--secondary-color) 10.45%,
-		var(--tertiary-color) 41.35%
-	);
+	background:#040506;
 }
 
 body::before {
@@ -61,22 +56,32 @@ p {
 	line-height: 1.5;
 }
 
-a {
-	color: var(--accent-color);
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
 h1 {
-	font-size: 2rem;
-	text-align: center;
+	font-size: 2.5rem;
+	margin-top: 1vw;
 }
 
 h2 {
-	font-size: 1rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 1.2rem;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
 }
 
 pre {

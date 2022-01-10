@@ -1,7 +1,15 @@
 <script context="module">
 	import { page } from '$app/stores';
-	import FundedList from "../../lib/FundedList/index.svelte"
-	import funded from "../../data/funded.json"
+	import FundedList from "../../lib/FundedList/index.svelte";
+	import funded from "../../data/funded.json";
+	import partnerPages from "../../data/partner-pages.json"
+	import Arweave from "../../data/partner-pages/arweave.md";
+</script>
+
+<script>
+	const partnerPage = partnerPages.find(
+		({ name }) => name.toLowerCase() === $page.params.slug.toLowerCase()
+	);
 </script>
 
 
@@ -10,10 +18,11 @@
 		<div>{$page.params.slug}</div>
 		<div>twitter, discord, discourse, website, radicle/github</div>
 		<div>funding range</div>
+		<div>grant programme treasury amount + incubator treasury amount</div>
 	</div>
 	<div class="cardsheader">
-		<h2>partner</h2>
 		<div>funding range</div>
+		<Arweave />
 	</div>
 	<FundedList funded={funded} />
 </section>
@@ -31,6 +40,9 @@
 	}
 	.partner {
 		margin-top: 30px;
+		margin-bottom: auto;
+		padding: 1rem;
 		color: white;
+		background-color: pink;
 	}
 </style>

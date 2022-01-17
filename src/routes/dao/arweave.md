@@ -1,3 +1,8 @@
+---
+layout: mds
+title: "arweave"
+---
+
 # Investment and funding.
 ## Get funding to build on the permaweb
 We regularly fund projects building on the Arweave network. Whether a decentralised application, an integration, or something else -- if you are using Arweave to build it, we want to support you!

@@ -1,19 +1,37 @@
 [
     {
-        "name": "DeveloperDAO",
+        "name": "developerdao",
         "image_url": "/logos/developerdao.png",
         "description": "Developer DAO exists to accelerate the education and impact of a new wave of web3 builders.",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "https://www.developerdao.com",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
-        "name": "Radicle",
+        "name": "radicle",
         "image_url": "/logos/radicle.png",
         "description": "A peer-to-peer stack for building software together",
         "twitter_url": "https://twitter.com/radicle",
         "programme_url": "https://github.com/radicle-dev/radicle-grants",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "https://radicle.xyz",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "0x52217bAD145A7a80D510f24A9572781D260f33D3" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "Rarible protocol",
@@ -21,7 +39,16 @@
         "description": "The open source, cross-chain, community owned NFT Protocol.",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "OrangeDAO",
@@ -29,7 +56,16 @@
         "description": "A DAO of Y Combinator alumni. We invest in the future of web3. Our 🍊’s name is Juicy Returns.",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "NEAR",
@@ -37,7 +73,16 @@
         "description": "A climate-neutral, high-speed, and low transaction fee Layer-1 Blockchain platform.",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "Gitcoin",
@@ -45,7 +90,16 @@
         "description": "Gitcoin is where communities unite to build & fund the open web.",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "Harmony",
@@ -53,7 +107,16 @@
         "description": "Harmony is your open platform for, collectibles, identity, governance. An open and fast blockchain: 2-second transaction finality, 1000 times lower fees.",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "Livepeer",
@@ -61,15 +124,33 @@
         "description": "Decentralized live streaming platform built on the blockchain.",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
-        "name": "Arweave",
+        "name": "arweave",
         "image_url": "/logos/arweave.png",
         "description": "The first truly permanent information storage network, backed by a sustainable endowment.",
         "twitter_url": "",
-        "programme_url": "https://www.arweave.org/get-involved/investment-funding",
-        "funding_types": ["incubator", "grant"]
+        "programme_url": "",
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "Figment",
@@ -77,7 +158,16 @@
         "description": "Infrastructure / Research / Application layer solutions for Web 3. Institutional Staking on 50+ PoS networks.",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "TheGraph",
@@ -85,7 +175,16 @@
         "description": "Making blockchain data easily accessible. The Graph is a web3 protocol for indexing and querying blockchain data with GraphQL Astronaut",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "Polygon",
@@ -93,7 +192,16 @@
         "description": "Polygon offers a wide range of secure, fast, affordable and energy-efficient Ethereum scaling solutions for Web 3 developers",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "ENS",
@@ -101,7 +209,16 @@
         "description": "Your web3 username. Register: http://app.ens.domains",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "OpenZeppelin",
@@ -109,7 +226,16 @@
         "description": "Use OpenZeppelin to ship faster with lower risk.",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "MakerDAO",
@@ -117,7 +243,16 @@
         "description": "Builders of Dai, a digital currency that can be used by anyone, anywhere, anytime.",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     },
     {
         "name": "IoTeX",
@@ -125,6 +260,15 @@
         "description": "Building the connected world. IoTeX is a fast, secure, and decentralized platform that connects real world devices and data to blockchain.",
         "twitter_url": "",
         "programme_url": "",
-        "funding_types": ["incubator", "grant"]
+        "website_url": "",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
     }
 ]

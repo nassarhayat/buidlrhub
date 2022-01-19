@@ -1,22 +1,5 @@
 [
     {
-        "name": "developerdao",
-        "image_url": "/logos/developerdao.png",
-        "description": "Developer DAO exists to accelerate the education and impact of a new wave of web3 builders.",
-        "twitter_url": "",
-        "programme_url": "",
-        "website_url": "https://www.developerdao.com",
-        "discord_url": "",
-        "forum_url": "",
-        "github_url": "",
-        "radicle_url": "",
-        "team": [
-            { "name": "nassar", "address": "" },
-            { "name": "abbey", "address": "" }
-        ],
-        "funding-types": ["incubator", "grant"]
-    },
-    {
         "name": "radicle",
         "image_url": "/logos/radicle.png",
         "description": "A peer-to-peer stack for building software together",
@@ -34,7 +17,24 @@
         "funding-types": ["incubator", "grant"]
     },
     {
-        "name": "Rarible protocol",
+        "name": "developerdao",
+        "image_url": "/logos/developerdao.png",
+        "description": "Developer DAO exists to accelerate the education and impact of a new wave of web3 builders.",
+        "twitter_url": "",
+        "programme_url": "",
+        "website_url": "https://www.developerdao.com",
+        "discord_url": "",
+        "forum_url": "",
+        "github_url": "",
+        "radicle_url": "",
+        "team": [
+            { "name": "nassar", "address": "" },
+            { "name": "abbey", "address": "" }
+        ],
+        "funding-types": ["incubator", "grant"]
+    },
+    {
+        "name": "rarible",
         "image_url": "/logos/raribleprotocol.png",
         "description": "The open source, cross-chain, community owned NFT Protocol.",
         "twitter_url": "",

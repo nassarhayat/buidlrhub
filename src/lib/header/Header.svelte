@@ -24,13 +24,11 @@
 		justify-content: space-between;
 	}
 	.logo {
-		color: white;
 		font-weight: 600;
 	}
 	a {
-		color: var(--color-yellow);
 		font-weight: 600;
-		border: 2px solid var(--color-yellow);
+		border: 2px solid var(--color-black);
 		padding: 1rem 1.5rem;
 		border-radius: 2rem;
 	}

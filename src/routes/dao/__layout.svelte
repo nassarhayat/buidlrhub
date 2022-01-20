@@ -15,7 +15,7 @@
 		<img class="avatar" src={dao.image_url} alt="logo" />
 		<div class="cardinfo">
 			<h1>{dao.name}</h1>
-			<div>{dao.description}</div>
+			<div class="description">{dao.description}</div>
 			<div class="links">
 				<a href={dao.website_url} target="_blank">
 					<img src="../static/icons/globe.svg" alt="website" />
@@ -43,9 +43,9 @@
 				</a>
 			</div>
 			<div>
-				<h3>team</h3>
+				<h3>Team</h3>
 				{#each dao.team as m}
-					<div>{m.name}</div>
+					<div class="name">{m.name}</div>
 				{/each}
 			</div>
 		</div>
@@ -60,20 +60,29 @@
 	img.avatar {
 		width: 100%;
 		height: auto;
-		border-bottom: 2px solid var(--color-black);
 	}	
-	
+	.cardinfo div, .cardinfo h1 {
+		margin: 0 0 2px 0;
+		padding: 6%;
+		background-color: var(--color-green);
+	}
+	div.name {
+		border-bottom: none;
+		padding: 0;
+		margin-bottom: 1rem;
+	}
 	section {
 		margin-top: 72px;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
 	}
 	.cardsheader {
+		padding: 4% 5%;
 		background-color: var(--color-blue);
 		border-left: 2px solid var(--color-black);
 	}
-	.cardinfo {
-		padding: 24px;
+	.description {
+		margin-bottom: 2rem;
 	}
 	.links {
 		display: grid;
@@ -98,7 +107,6 @@
 	}
 	.partner {
 		margin-bottom: auto;
-		background-color: var(--color-green);
 		border-left: 2px solid var(--color-black);
 	}
 </style>

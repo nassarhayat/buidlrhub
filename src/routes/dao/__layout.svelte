@@ -39,7 +39,7 @@
 				</a>
 				<a href={dao.programme_url} target="_blank">
 					<img src="../static/icons/infoCircle.svg" alt="more info" />
-					More info
+					Info
 				</a>
 			</div>
 			<div>
@@ -76,9 +76,25 @@
 		padding: 24px;
 	}
 	.links {
-		/* padding: 10%; */
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+	}
+	.links a {
+		display: flex;
+		align-items: center;
+		padding: .5rem;
+		margin: .25rem 0;
+		border-radius: 50rem;
+		border: 2px solid var(--color-black);
+	}
+	.links a:nth-child(2n) {
+		margin-left: .25rem;
+	}
+	.links a:nth-child(2n-1) {
+		margin-right: .25rem;
+	}
+	.links a img {
+		margin-right: .25rem;
 	}
 	.partner {
 		margin-bottom: auto;

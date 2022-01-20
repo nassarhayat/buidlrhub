@@ -60,10 +60,12 @@
 	img.avatar {
 		width: 100%;
 		height: auto;
+		border-radius: 50%;
 	}	
 	.cardinfo div, .cardinfo h1 {
 		margin: 0 0 2px 0;
 		padding: 6%;
+		border-radius: 2rem;
 		background-color: var(--color-green);
 	}
 	div.name {
@@ -72,7 +74,7 @@
 		margin-bottom: 1rem;
 	}
 	section {
-		margin-top: 72px;
+		margin-top: 76px;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
 	}
@@ -80,6 +82,9 @@
 		padding: 4% 5%;
 		background-color: var(--color-blue);
 		border-left: 2px solid var(--color-black);
+		border-right: 2px solid var(--color-black);
+		/* margin-top: -74px; */
+		/* z-index: 1; */
 	}
 	.description {
 		margin-bottom: 2rem;

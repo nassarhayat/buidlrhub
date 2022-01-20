@@ -24,6 +24,11 @@
 	--column-margin-top: 4rem;
 }
 
+::selection {
+	background: rgba(255, 191, 0, 0.8);
+	color: var(--color-black);
+}
+
 body {
 	min-height: 100vh;
 	margin: 0;

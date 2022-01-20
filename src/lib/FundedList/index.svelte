@@ -18,7 +18,6 @@
 	}
 	.fundedheader {
 	  color: white;
-	  padding: 1rem;
 	}
 </style>
 

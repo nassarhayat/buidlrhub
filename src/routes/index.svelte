@@ -30,7 +30,7 @@
 		background: seagreen;
 	}
 	section {
-		margin-top: 36px;
+		margin-top: 72px;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
 	}

@@ -38,14 +38,13 @@
 
 <style>
 	section {
-		margin-top: 36px;
+		margin-top: 72px;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
 	}
 	.cardsheader {
-		background-color: white;
-		padding: 1rem;
-		border-bottom:1px solid rgba(0, 0, 0, 0.3);
+		background-color: var(--color-blue);
+		border-left: 2px solid var(--color-black);
 	}
 	.links {
 		display: grid;
@@ -55,9 +54,7 @@
 		padding: 10px;
 	}
 	.partner {
-		margin-top: 30px;
 		margin-bottom: auto;
-		padding: 1rem;
 		color: white;
 		background-color: grey;
 	}

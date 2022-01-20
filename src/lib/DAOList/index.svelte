@@ -18,8 +18,7 @@
 
 <style>
     .cardsheader {
-	  background-color: white;
-	  padding: 1rem;
+	  background-color: var(--color-blue);
 	  border-bottom:1px solid rgba(0, 0, 0, 1);
 	}
 </style>

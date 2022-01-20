@@ -6,7 +6,7 @@
 </script>
 
 <script>
-	const dao = daos.find((d) => d.name === $page.path.replace('/dao/', ''));
+	const dao = daos.find((d) => d.name === $page.url.pathname.replace('/dao/', ''));
 </script>
 
 

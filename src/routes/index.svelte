@@ -15,7 +15,7 @@
 </svelte:head>
 
 <section>
-	<div>
+	<div id="intro">
 		<h1>Grants and investment from DAOs</h1>
 		<h3>Your single hub for applying for grants and incubator programmes</h3>
 	</div>
@@ -24,6 +24,11 @@
 </section>
 
 <style>
+	#intro {
+		text-align: center;
+		padding: 2rem;
+		background: seagreen;
+	}
 	section {
 		margin-top: 36px;
 		display: grid;

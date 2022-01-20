@@ -11,7 +11,7 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-		background-color: black;
+		background-color: orangered;
 		border-bottom:1px solid rgba(255, 255, 255, 0.3);
 	}
 	.headerInner {

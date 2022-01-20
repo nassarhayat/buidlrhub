@@ -35,9 +35,6 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
-	a {
-		padding: 10px;
-	}
 	.partner {
 		margin-top: 30px;
 		margin-bottom: auto;

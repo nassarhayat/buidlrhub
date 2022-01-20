@@ -25,7 +25,6 @@
 	  background-color: #161b22;
 	  border: 1px solid black;
 	  color: white;
-	  padding: 1rem;
 	}
 	.avatarrow {
 	  display: flex;

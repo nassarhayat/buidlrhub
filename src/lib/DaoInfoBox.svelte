@@ -38,7 +38,6 @@
 	.partner {
 		margin-top: 30px;
 		margin-bottom: auto;
-		color: white;
-		background-color: grey;
+		color: var(--color-white);
 	}
 </style>

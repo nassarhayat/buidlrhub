@@ -12,12 +12,12 @@
 		top: 0;
 		left: 0;
 		background-color: orangered;
-		border-bottom:1px solid rgba(255, 255, 255, 0.3);
+		border: 2px solid var(--color-black);
 	}
 	.headerInner {
 		margin: 0 auto;
 		position: relative;
-		padding: 25px 15px;
+		padding: 0.5rem;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -27,7 +27,10 @@
 		font-weight: 600;
 	}
 	a {
-		color: greenyellow;
+		color: var(--color-yellow);
 		font-weight: 600;
+		border: 2px solid var(--color-yellow);
+		padding: 1rem 1.5rem;
+		border-radius: 2rem;
 	}
 </style>

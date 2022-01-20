@@ -27,7 +27,7 @@
 	#intro {
 		text-align: center;
 		padding: 2rem;
-		background: seagreen;
+		background: var(--color-green);
 	}
 	section {
 		margin-top: 72px;

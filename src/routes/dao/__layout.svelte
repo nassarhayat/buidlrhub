@@ -13,21 +13,41 @@
 <section>
 	<div class="partner">
 		<img class="avatar" src={dao.image_url} alt="logo" />
-		<h1>{dao.name}</h1>
-		<div>{dao.description}</div>
-		<div class="links">
-			<a href={dao.website_url} target="_blank">website</a>
-			<a href={dao.twitter_url} target="_blank">twitter</a>
-			<a href={dao.discord_url} target="_blank">discord</a>
-			<a href={dao.forum_url} target="_blank">forum</a>
-			<a href={dao.github_url} target="_blank">github</a>
-			<a href={dao.programme_url} target="_blank">more info</a>
-		</div>
-		<div>
-			<h3>team</h3>
-			{#each dao.team as m}
-				<div>{m.name}</div>
-			{/each}
+		<div class="cardinfo">
+			<h1>{dao.name}</h1>
+			<div>{dao.description}</div>
+			<div class="links">
+				<a href={dao.website_url} target="_blank">
+					<img src="../static/icons/globe.svg" alt="website" />
+					Website
+				</a>
+				<a href={dao.twitter_url} target="_blank">
+					<img src="../static/icons/twitter.svg" alt="twitter" />
+					Twitter
+				</a>
+				<a href={dao.discord_url} target="_blank">
+					<img src="../static/icons/discord.svg" alt="discord" />
+					Discord
+				</a>
+				<a href={dao.forum_url} target="_blank">
+					<img src="../static/icons/chat.svg" alt="forum" />
+					Forum
+				</a>
+				<a href={dao.github_url} target="_blank">
+					<img src="../static/icons/github.svg" alt="github" />
+					Github
+				</a>
+				<a href={dao.programme_url} target="_blank">
+					<img src="../static/icons/infoCircle.svg" alt="more info" />
+					More info
+				</a>
+			</div>
+			<div>
+				<h3>team</h3>
+				{#each dao.team as m}
+					<div>{m.name}</div>
+				{/each}
+			</div>
 		</div>
 	</div>
 	<div class="cardsheader">
@@ -37,6 +57,12 @@
 </section>
 
 <style>
+	img.avatar {
+		width: 100%;
+		height: auto;
+		border-bottom: 2px solid var(--color-black);
+	}	
+	
 	section {
 		margin-top: 72px;
 		display: grid;
@@ -46,16 +72,17 @@
 		background-color: var(--color-blue);
 		border-left: 2px solid var(--color-black);
 	}
+	.cardinfo {
+		padding: 24px;
+	}
 	.links {
+		/* padding: 10%; */
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
-	a {
-		padding: 10px;
-	}
 	.partner {
 		margin-bottom: auto;
-		color: white;
-		background-color: grey;
+		background-color: var(--color-green);
+		border-left: 2px solid var(--color-black);
 	}
 </style>

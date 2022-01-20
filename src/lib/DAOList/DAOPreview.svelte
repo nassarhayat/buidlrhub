@@ -20,7 +20,7 @@
 
 <style>
     .card {
-	  background: white;
+	  background: var(--color-blue);
 	  border-bottom:1px solid rgba(0, 0, 0, 0.3);
 	  align-self: flex-end;
 	}

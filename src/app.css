@@ -84,7 +84,7 @@ p {
 
 h1 {
 	font-size: 6rem;
-	line-height: 1.25;
+	line-height: 1;
 	margin: 1vw 0 0 0;
 	font-weight: 100;
 	letter-spacing: -0.2rem;
@@ -96,7 +96,6 @@ h2 {
 	margin: 0;
 	padding: 1rem 0;
 	letter-spacing: -0.1rem;
-	line-height: 1;
 }
 
 h3 {

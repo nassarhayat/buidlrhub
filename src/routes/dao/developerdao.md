@@ -1,7 +1,5 @@
 # Radicle Grants Program
 
-## Introduction
-
 If you're reading this, you're as interested as we are in promoting Free and Open Source Software (FOSS) and the
 ever growing Web3 ecosystem.
 
@@ -123,15 +121,15 @@ If you have a question about which level to apply to, please reach out on the Gr
 
 Seed grants are meant for smaller projects, both in terms of complexity and cost.
 
-* **Target:** Individuals & small teams
-* **Amount:** less than $50,000
+- **Target:** Individuals & small teams
+- **Amount:** less than $50,000
 
 ### 🌲 Tree Grants (Level 2)
 
 Seed grants are meant for larger projects in terms of scope, complexity, and time to completion.
 
-* **Target:** teams, companies, or foundations with a proven record
-* **Amount:** more than $50,000 (up to $500,000)
+- **Target:** teams, companies, or foundations with a proven record
+- **Amount:** more than $50,000 (up to $500,000)
 
 ## Alt Funding Sources
 
@@ -150,9 +148,9 @@ Below is a list of hackathons Radicle has sponsored in the past:
 
 ## Useful Links
 
-| <img src="src/twitter_logo.png?s=50" width="50"> | <img src="src/discord_logo.png?s=50" width="50"> | <img src="src/radicle_text_logo.png?s=50" width="50"> | <img src="src/matrix_logo.svg?s=50" width="50"> | <img src="src/telegram_logo.svg?s=50" width="50"> | <img src="src/radicle_logo.png?s=50" width="50"> | <img src="src/gnosis_logo.png?s=50" width="50"> |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [@radicle](https://twitter.com/radicle)  | [Discord](https://discord.com/invite/HRdnwAwGbG) | [Discourse](https://radicle.community/) | [Matrix](https://matrix.radicle.community/) | [Telegram](https://t.me/radicleworld) | [Radicle Org](https://app.radicle.network/orgs/0x8e9c37cc9a8fbb96400954c1ef2b351176fe0803) | [Gnosis Safe](https://gnosis-safe.io/app/eth:0x394B920c5d39E0Ca40fCa2871569B6B90D750c7c/balances) |
+| <img src="src/twitter_logo.png?s=50" width="50"> | <img src="src/discord_logo.png?s=50" width="50"> | <img src="src/radicle_text_logo.png?s=50" width="50"> | <img src="src/matrix_logo.svg?s=50" width="50"> | <img src="src/telegram_logo.svg?s=50" width="50"> |                      <img src="src/radicle_logo.png?s=50" width="50">                      |                          <img src="src/gnosis_logo.png?s=50" width="50">                          |
+| :----------------------------------------------: | :----------------------------------------------: | :---------------------------------------------------: | :---------------------------------------------: | :-----------------------------------------------: | :----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
+|     [@radicle](https://twitter.com/radicle)      | [Discord](https://discord.com/invite/HRdnwAwGbG) |        [Discourse](https://radicle.community/)        |   [Matrix](https://matrix.radicle.community/)   |       [Telegram](https://t.me/radicleworld)       | [Radicle Org](https://app.radicle.network/orgs/0x8e9c37cc9a8fbb96400954c1ef2b351176fe0803) | [Gnosis Safe](https://gnosis-safe.io/app/eth:0x394B920c5d39E0Ca40fCa2871569B6B90D750c7c/balances) |
 
 ## License
 

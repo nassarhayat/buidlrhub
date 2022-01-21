@@ -1,10 +1,20 @@
 @import '@fontsource/fira-mono';
 
+@import url('https://rsms.me/inter/inter.css');
+html {
+	font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+	html {
+		font-family: 'Inter var', sans-serif;
+	}
+}
+
 :root {
 	font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
-	--pure-white: #ffffff;
+	--color-white: #ffffff;
 	--primary-color: #b9c6d2;
 	--secondary-color: #d0dde9;
 	--tertiary-color: #edf0f8;
@@ -15,13 +25,15 @@
 	--color-green: #9fe2bf;
 	--color-blue: #6495ed;
 	--color-yellow: #ffbf00;
-	--color-orange: #ff7f50;
+	--color-orange: orangered;
 	--color-neon: #dfff00;
 	--color-red: #de3163;
-	--color-purple: #ccccff;
+	--color-purple: #9495f1;
 	--background-without-opacity: rgba(255, 255, 255, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
+	--shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+	--border-radius: 2.5rem;
 }
 
 ::selection {
@@ -34,6 +46,7 @@ body {
 	margin: 0;
 	background-color: var(--primary-color);
 	background: var(--color-black);
+	font-size: 1.25rem;
 }
 
 body::before {
@@ -53,6 +66,7 @@ body::before {
 }
 
 #svelte {
+	max-width: 1920px;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -69,22 +83,31 @@ p {
 }
 
 h1 {
-	font-size: 2.5rem;
-	margin-top: 1vw;
-	font-weight: 300;
+	font-size: 6rem;
+	line-height: 1;
+	margin: 1vw 0 0 0;
+	font-weight: 100;
+	letter-spacing: -0.2rem;
 }
 
 h2 {
-	font-size: 1.2rem;
-	font-weight: 600;
+	font-size: 3rem;
+	font-weight: 250;
+	margin: 0;
+	padding: 1rem 0;
+	letter-spacing: -0.1rem;
+	line-height: 1;
 }
 
 h3 {
+	margin: 0;
 	font-weight: 500;
+	margin: 0;
 }
 
 h4 {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
+	font-weight: 400;
 }
 
 a {
@@ -101,7 +124,7 @@ pre {
 	font-family: var(--font-mono);
 	background-color: rgba(255, 255, 255, 0.45);
 	border-radius: 3px;
-	box-shadow: 2px 2px 6px rgb(255 255 255 / 25%);
+	box-shadow: var(--shadow);
 	padding: 0.5em;
 	overflow-x: auto;
 	color: var(--text-color);
@@ -117,8 +140,6 @@ button:focus:not(:focus-visible) {
 	outline: none;
 }
 
-@media (min-width: 720px) {
-	h1 {
-		font-size: 2.4rem;
-	}
+li {
+	line-height: 1.5;
 }

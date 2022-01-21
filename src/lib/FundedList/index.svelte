@@ -5,7 +5,7 @@
 
 <section>
     <div class="fundedheader">
-        <h2>funded</h2>
+        <h2>Funded</h2>
     </div>
     {#each funded as f}
         <FundedPreview funded={f} />
@@ -14,10 +14,15 @@
 
 <style>
     section {
-	  margin-left: 1rem;
+	  margin-left: 2px;
 	}
-	.fundedheader {
-	  color: white;
-	}
+    h2 {
+        padding: 1rem 2rem;
+    }
+    section * {
+        margin-bottom: 2px;
+        background-color: var(--color-purple);
+        border-radius: var(--border-radius);
+    }
 </style>
 

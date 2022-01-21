@@ -12,7 +12,7 @@
 
 <div class="partner">
     <img class="avatar" src={dao.image_url} alt="logo" />
-    <h1>{dao.name}</h1>
+    <h2>{dao.name}</h2>
     <div>{dao.description}</div>
     <div class="links">
         <a href={dao.website_url} target="_blank">website</a>

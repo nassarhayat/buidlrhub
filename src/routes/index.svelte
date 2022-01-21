@@ -16,8 +16,8 @@
 
 <section>
 	<div id="intro">
-		<h1>Grants and investment from DAOs</h1>
-		<h3>Your single hub for applying for grants and incubator programmes</h3>
+		<h2>Grants & investment from DAOs</h2>
+		<p>Your single hub for applying for grants and incubator programmes</p>
 	</div>
 	<DAOList daos={daos} />
 	<FundedList funded={funded} />
@@ -25,16 +25,22 @@
 
 <style>
 	#intro {
-		text-align: center;
-		padding: 2rem;
-		background: var(--color-green);
+		border-radius: var(--border-radius);
+		height: fit-content;
+		border-right: 2px solid var(--color-black);
+		margin-left: 2px;
 	}
 	section {
-		margin-top: 72px;
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
 	}
 	h3 {
-	  margin-top: 20px;
+		margin-top: 20px;
+	}
+	h2, p {
+		padding: 1rem 2rem;
+		background-color: var(--color-green);
+		border-radius: var(--border-radius);
+		margin: 0 0 2px;
 	}
   </style>

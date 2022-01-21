@@ -1,8 +1,8 @@
 [
     {
         "name": "radicle",
-        "image_url": "/logos/radicle.png",
-        "description": "A peer-to-peer stack for building software together",
+        "image_url": "https://radicle.xyz/img/brand/token-logo.png",
+        "description": "Radicle is 🗝️ secure and uncensorable code infrastructure 🤝 collective code governance 🌈 new ways to earn 💸 for open source.",
         "twitter_url": "https://twitter.com/radicle",
         "programme_url": "https://github.com/radicle-dev/radicle-grants",
         "website_url": "https://radicle.xyz",

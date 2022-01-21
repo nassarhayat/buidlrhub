@@ -20,10 +20,11 @@
 
 <style>
     .card {
-	  background: white;
-	  padding: 1rem;
-	  border-bottom:1px solid rgba(0, 0, 0, 0.3);
+	  background: var(--color-blue);
 	  align-self: flex-end;
+	  border-radius: var(--border-radius);
+	  padding: 2rem;
+	  margin-bottom: 2px;
 	}
   
 	.avatar {

@@ -12,7 +12,7 @@
 
 <div class="partner">
     <img class="avatar" src={dao.image_url} alt="logo" />
-    <h1>{dao.name}</h1>
+    <h2>{dao.name}</h2>
     <div>{dao.description}</div>
     <div class="links">
         <a href={dao.website_url} target="_blank">website</a>
@@ -35,14 +35,9 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
-	a {
-		padding: 10px;
-	}
 	.partner {
 		margin-top: 30px;
 		margin-bottom: auto;
-		padding: 1rem;
-		color: white;
-		background-color: grey;
+		color: var(--color-white);
 	}
 </style>

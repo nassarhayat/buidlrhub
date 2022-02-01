@@ -50,7 +50,10 @@
 			<div>
 				<h3>Team</h3>
 				{#each dao.team as m}
-				<div class="name">{m.name}</div>
+					<div class="teamrow">
+						<img class="teamavatar" src={m.image_url} alt="" />
+						<div class="name">{m.name}</div>
+					</div>
 				{/each}
 			</div>
 		</div>
@@ -82,6 +85,18 @@
 		border-color: var(--color-white);
 		box-shadow: var(--shadow);
 	}
+	.teamrow {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.teamavatar {
+		width: 3rem;
+		height: 3rem;
+		display: inline-block;
+		border-radius: 50%;
+		margin-right: 1rem;
+	}
 	img.avatar {
 		width: 4rem;
 		height: 4rem;
@@ -94,7 +109,7 @@
 		padding: 6%;
 		border-radius: var(--border-radius);
 		background-color: var(--color-green);
-		border-right: 2px solid var(--color-black);
+		/* border-right: 2px solid var(--color-black); */
 	}
 	div.name {
 		border: none;

@@ -25,6 +25,7 @@
     <div>
         <h3>team</h3>
         {#each dao.team as m}
+            <div>{m.image_url}</div>
             <div>{m.name}</div>
         {/each}
     </div>

@@ -11,8 +11,8 @@
         "github_url": "",
         "radicle_url": "",
         "team": [
-            { "name": "nassar", "address": "0x52217bAD145A7a80D510f24A9572781D260f33D3" },
-            { "name": "abbey", "address": "" }
+            { "name": "nassar", "address": "0x52217bAD145A7a80D510f24A9572781D260f33D3", "image_url": "https://pbs.twimg.com/profile_images/1485650851641409542/j2CgS4Va_400x400.png" },
+            { "name": "abbey", "address": "0x9f2942fF27e40445d3CB2aAD90F84C3a03574F26", "image_url": "https://pbs.twimg.com/profile_images/1473384812383719435/lQ4rHlJf_400x400.jpg" }
         ],
         "funding-types": ["incubator", "grant"]
     },

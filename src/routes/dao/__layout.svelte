@@ -104,10 +104,6 @@
 		padding: 0;
 		margin-bottom: 1rem;
 	}
-	section {
-		display: grid;
-		grid-template-columns: 0.5fr 1fr 0.5fr;
-	}
 	.description {
 		margin-bottom: 2rem;
 	}
@@ -160,10 +156,14 @@
 		width: 10vw;
 		height: 10vw;
 	}
-    @media (min-width: 640px) { 
+    @media (min-width: 700px) { 
 		.avatar {
 			width: 2rem;
 			height: 2rem;
+		}
+		section {
+			display: grid;
+			grid-template-columns: 0.5fr 1fr 0.5fr;
 		}
 	}
 </style>

@@ -30,14 +30,16 @@
 		border-right: 2px solid var(--color-black);
 		margin-left: 2px;
 	}
-	section {
-		display: grid;
-		grid-template-columns: 0.5fr 1fr 0.5fr;
-	}
 	h2, p {
 		padding: 1rem 2rem;
 		background-color: var(--color-green);
 		border-radius: var(--border-radius);
 		margin: 0 0 2px;
+	}
+	@media (min-width: 700px) {
+		section {
+			display: grid;
+			grid-template-columns: 0.5fr 1fr 0.5fr;
+		}
 	}
   </style>

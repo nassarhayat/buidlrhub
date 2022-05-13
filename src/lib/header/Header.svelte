@@ -1,6 +1,6 @@
 <header>
 	<div class="headerInner">
-		<a href="/"><div class="logo">✷ buildrhub</div></a>
+		<a href="/"><div class="logo">✷ fun-ding</div></a>
 		<p>If you can dream it, you can build it.</p>
 		<a class="apply" href="https://l57by8cmnip.typeform.com/to/uxMQ66ZD" target="_blank">Apply for funding →</a>
 	</div>

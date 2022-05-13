@@ -1,17 +1,19 @@
 <script>
 	import DAOPreview from './DAOPreview.svelte';
-	export let daos;
+	export let projects;
 </script>
 
-{#if daos.length === 0}
+{#if projects.length === 0}
 	<div>No partners are here... yet.</div>
 {:else}
 	<div>
         <div class="cardsheader">
-			<h2>Partners</h2>
+			<h2>DAOs</h2>
 		</div>
-        {#each daos as dao}
-            <DAOPreview dao={dao} />
+        {#each projects as project}
+			{#if project.type === "funder"}
+				<DAOPreview project={project} />
+			{/if}
 		{/each}
 	</div>
 {/if}

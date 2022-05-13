@@ -1,6 +1,6 @@
 <script context="module">
 	import { page } from '$app/stores';
-	import daos from "../data/daos.json";
+	import daos from "../data/programmes.json";
 </script>
 
 <script>

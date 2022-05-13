@@ -1,8 +1,8 @@
 <script context="module" lang="ts">
 	import DAOList from "../lib/DAOList/index.svelte";
 	import FundedList from "../lib/FundedList/index.svelte"
-	import daos from "../data/daos.json"
-	import funded from "../data/funded.json"
+	import projects from "../data/projects.json"
+	import funding from "../data/funding.json"
 	export const prerender = true;
 </script>
 
@@ -16,11 +16,11 @@
 
 <section>
 	<div id="intro">
-		<h2>Grants & investment from DAOs</h2>
-		<p>Your single hub for applying for grants and incubator programmes</p>
+		<h2>Support and funding from DAOs</h2>
+		<p>One place to apply for integration, grants, investments, and growth support</p>
 	</div>
-	<DAOList daos={daos} />
-	<FundedList funded={funded} />
+	<DAOList projects={projects} />
+	<FundedList funding={funding} />
 </section>
 
 <style>

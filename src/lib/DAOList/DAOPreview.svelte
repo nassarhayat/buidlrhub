@@ -1,20 +1,12 @@
 <script>
-    export let dao;
+    export let project;
 </script>
 
-<a href={`/dao/${dao.name}`}>
+<a href={`/dao/${project.name}`}>
     <div class="card">
-    <img class="avatar" src={dao.image_url} alt="logo" />
-    <h4 class="cardtitle">{dao.name}</h4>
-    <p>{dao.description}</p>
-    <div class="options">
-        {#if dao.twitter_url}
-        <a href={dao.twitter_url} target="_blank">
-            <img class="twitter" src="/logos/twitter.png" alt="twitter" />
-        </a>
-        {/if}
-        <a class="programmeButton" href={dao.programme_url} target="_blank">Programme info</a>
-    </div>
+		<img class="avatar" src={project.image_url} alt="logo" />
+		<h3 class="cardtitle">{project.name}</h3>
+		<p>{project.description}</p>
     </div>
 </a>
 

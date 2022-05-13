@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "date": "May 2016", 
+        "amount": "$50k", 
+        "from_project_id": 1,
+        "to_project_id": 12
+    },
+    {
+        "id": 2,
+        "date": "May 2016", 
+        "amount": "$50k", 
+        "from_project_id": 1,
+        "to_project_id": 2
+    },
+    {
+        "id": 3,
+        "date": "May 2016", 
+        "amount": "$50k", 
+        "from_project_id": 2,
+        "to_project_id": 2
+    },
+    {
+        "id": 4,
+        "date": "May 2016", 
+        "amount": "$50k", 
+        "from_project_id": 2,
+        "to_project_id": 2
+    },
+    {
+        "id": 5,
+        "date": "May 2016", 
+        "amount": "$50k", 
+        "from_project_id": 3,
+        "to_project_id": 2
+    }
+]

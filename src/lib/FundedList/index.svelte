@@ -1,13 +1,13 @@
 <script>
 	import FundedPreview from './FundedPreview.svelte';
-	export let funded;
+	export let funding;
 </script>
 
 <section>
     <div class="fundedheader">
         <h2>Funded</h2>
     </div>
-    {#each funded as f}
+    {#each funding as f}
         <FundedPreview funded={f} />
     {/each}
 </section>

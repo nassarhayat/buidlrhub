@@ -1,16 +1,20 @@
 <script>
     export let funded;
+	import projects from "../../data/projects.json";
+
+	// const from_project = projects.find((p) => p.id === funding.from_project_id);
+	const to_project = projects.find((p) => p.id === funded.to_project_id);
 </script>
 
-<a href={`/${funded.name}`}>
+<a href={`/${to_project.name}`}>
     <div class="fundedcard">
         <div class="avatarrow">
-            <img class="avatar" src={funded.image_url} alt="logo" />
+            <img class="avatar" src={to_project.image_url} alt="logo" />
             <div>
-                <h4>{funded.name}</h4>
+                <h4>{to_project.name}</h4>
                 <div class="links">
                     <p>{funded.amount}</p>
-                    <a href={funded.website_url} target="_blank">learn more →</a>
+                    <a href={to_project.website_url} target="_blank">learn more →</a>
                 </div>
             </div>
         </div>

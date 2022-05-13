@@ -1,67 +1,71 @@
 <script context="module">
 	import { page } from '$app/stores';
 	import FundedList from "$lib/FundedList/index.svelte";
-	import funded from "../../data/funded.json";
-	import daos from "../../data/daos.json";
+	import funding from "../../data/funding.json";
+	import projects from "../../data/projects.json";
 </script>
 
 <script>
-	const dao = daos.find((d) => d.name === $page.url.pathname.replace('/dao/', ''));
+	const project = projects.find((d) => d.name === $page.url.pathname.replace('/dao/', ''));
+	const funded = funding.filter((f) => f.from_project_id === project.id);
 </script>
 
 
 <section>
 	<div class="partner">
 		<div class="cardinfo">
-			<h2><img class="avatar" src={dao.image_url} alt="logo" />{dao.name}</h2>
-			<div class="description">{dao.description}</div>
+			<h2><img class="avatar" src={project.image_url} alt="logo" />{project.name}</h2>
+			<div class="description">{project.description}</div>
 			<div class="links">
-				<a href={dao.website_url} target="_blank">
-					<img src="../static/icons/globe.svg" alt="website" />
+				<a href={project.website_url} target="_blank">
+					<img src="/icons/globe.svg" alt="website" />
 					<span class="text">Website</span>
 					<span>↗</span>
 				</a>
-				<a href={dao.twitter_url} target="_blank">
-					<img src="../static/icons/twitter.svg" alt="twitter" />
+				<a href={project.twitter_url} target="_blank">
+					<img src="/icons/twitter.svg" alt="twitter" />
 					<span class="text">Twitter</span>
 					<span>↗</span>
 				</a>
-				<a href={dao.discord_url} target="_blank">
-					<img src="../static/icons/discord.svg" alt="discord" />
+				<a href={project.discord_url} target="_blank">
+					<img src="/icons/discord.svg" alt="discord" />
 					<span class="text">Discord</span>
 					<span>↗</span>
 				</a>
-				<a href={dao.forum_url} target="_blank">
-					<img src="../static/icons/chat.svg" alt="forum" />
+				<a href={project.forum_url} target="_blank">
+					<img src="/icons/chat.svg" alt="forum" />
 					<span class="text">Forum</span>
 					<span>↗</span>
 				</a>
-				<a href={dao.github_url} target="_blank">
-					<img src="../static/icons/github.svg" alt="github" />
+				<a href={project.github_url} target="_blank">
+					<img src="/icons/github.svg" alt="github" />
 					<span class="text">Github</span>
 					<span>↗</span>
 				</a>
-				<a href={dao.programme_url} target="_blank">
-					<img src="../static/icons/infoCircle.svg" alt="more info" />
+				<a href={project.programme_url} target="_blank">
+					<img src="/icons/infoCircle.svg" alt="more info" />
 					<span class="text">Info</span>
 					<span>↗</span>
 				</a>
 			</div>
 			<div>
 				<h3>Team</h3>
-				{#each dao.team as m}
-				<div class="name">{m.name}</div>
+				{#each project.team as m}
+					<div class="member">
+						<img class="avatar" src={m.image_url} alt="logo" />
+						<h4 class="name">{m.name}</h4>
+					</div>
 				{/each}
 			</div>
 		</div>
 	</div>
 	<div>
 		<div class="cardsheader">
-			<a class="back" href="../">← Back to all grants</a>
+			<a class="back" href="../">← Back to all DAOs</a>
 			<slot />
 		</div>
 	</div>
-	<FundedList funded={funded} />
+	<FundedList funding={funded} />
 </section>
 
 <style>
@@ -94,7 +98,6 @@
 		padding: 6%;
 		border-radius: var(--border-radius);
 		background-color: var(--color-green);
-		border-right: 2px solid var(--color-black);
 	}
 	div.name {
 		border: none;
@@ -146,5 +149,21 @@
 		background-color: var(--color-blue);
 		border-radius: var(--border-radius);
 		padding: 1.5rem;
+	}
+	.member {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.avatar {
+		border-radius: 100%;
+		width: 10vw;
+		height: 10vw;
+	}
+    @media (min-width: 640px) { 
+		.avatar {
+			width: 2rem;
+			height: 2rem;
+		}
 	}
 </style>

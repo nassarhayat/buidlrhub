@@ -168,24 +168,6 @@
     },
     {
         "id": 10,
-        "name": "OpenZeppelin",
-        "image_url": "/logos/openzeppelin.png",
-        "description": "Use OpenZeppelin to ship faster with lower risk.",
-        "twitter_url": "",
-        "programme_url": "",
-        "website_url": "",
-        "discord_url": "",
-        "forum_url": "",
-        "github_url": "",
-        "radicle_url": "",
-        "team": [
-            { "name": "nassar", "twitter_url": "" },
-            { "name": "abbey", "twitter_url": "" }
-        ],
-        "type": "funder"
-    },
-    {
-        "id": 11,
         "name": "MakerDAO",
         "image_url": "/logos/makerdao.png",
         "description": "Builders of Dai, a digital currency that can be used by anyone, anywhere, anytime.",
@@ -203,7 +185,7 @@
         "type": "funder"
     },
     {
-        "id": 12,
+        "id": 11,
         "name": "Clipto",
         "image_url": "https://pbs.twimg.com/media/FR81hEWWQAMfMtn.jpg",
         "description": "Building the connected world. IoTeX is a fast, secure, and decentralized platform that connects real world devices and data to blockchain.",

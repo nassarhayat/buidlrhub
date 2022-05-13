@@ -1,25 +1,27 @@
 <script>
+	import { onMount } from 'svelte';
     export let funded;
 	import projects from "../../data/projects.json";
 
-	// const from_project = projects.find((p) => p.id === funding.from_project_id);
-	const to_project = projects.find((p) => p.id === funded.to_project_id);
+	let to_project = projects.find((p) => p.id === funded.to_project_id);
+	to_project = to_project
 </script>
 
-<a href={`/${to_project.name}`}>
-    <div class="fundedcard">
-        <div class="avatarrow">
-            <img class="avatar" src={to_project.image_url} alt="logo" />
-            <div>
-                <h4>{to_project.name}</h4>
-                <div class="links">
-                    <p>{funded.amount}</p>
-                    <a href={to_project.website_url} target="_blank">learn more →</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</a>
+{#if to_project}
+	<a href={to_project.website_url} target="_blank">
+		<div class="fundedcard">
+			<div class="avatarrow">
+				<img class="avatar" src={to_project.image_url} alt="logo" />
+				<div>
+					<h4>{to_project.name}</h4>
+					<div class="links">
+						<p>{funded.amount}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+{/if}
 
 <style>
     h4 {

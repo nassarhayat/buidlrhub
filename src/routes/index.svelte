@@ -34,9 +34,6 @@
 		display: grid;
 		grid-template-columns: 0.5fr 1fr 0.5fr;
 	}
-	h3 {
-		margin-top: 20px;
-	}
 	h2, p {
 		padding: 1rem 2rem;
 		background-color: var(--color-green);

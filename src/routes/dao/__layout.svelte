@@ -99,7 +99,7 @@
 		border-radius: var(--border-radius);
 		background-color: var(--color-green);
 	}
-	div.name {
+	.name {
 		border: none;
 		padding: 0;
 		margin-bottom: 1rem;

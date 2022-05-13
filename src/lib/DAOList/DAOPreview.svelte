@@ -24,24 +24,6 @@
 	  width: 15vw;
 	}
   
-	.options {
-	  display: flex;
-	  flex-direction: row;
-	  grid-gap: 10px;
-	}
-  
-	.twitter {
-	  background-color: #00ACEE;
-	  max-width: 20px;
-	  padding: 5px;
-	  border-radius: 10px;
-	}
-  
-	.programmeButton {
-	  border: solid 2px black;
-	  border-radius: 10px;
-	  padding: 10px;
-	}
     @media (min-width: 640px) { 
 	  .avatar {
 		width: 6vw;

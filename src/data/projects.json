@@ -20,7 +20,8 @@
             { "name": "Nader", "twitter_url": "https://twitter.com/dabit3", "role": "committe member", "image_url": "https://pbs.twimg.com/profile_images/1485650851641409542/j2CgS4Va_400x400.png" },
             { "name": "Reverie", "twitter_url": "https://twitter.com/reverie", "role": "committe member", "image_url": "https://pbs.twimg.com/profile_images/1485650851641409542/j2CgS4Va_400x400.png" }
         ],
-        "type": "funder"
+        "type": "funder",
+        "vertical": "workplace software"
     },
     {
         "id": 2,
@@ -38,7 +39,8 @@
             { "name": "nassar", "twitter_url": "" },
             { "name": "abbey", "twitter_url": "" }
         ],
-        "type": "funder"
+        "type": "funder",
+        "vertical": "smart contract platform"
     },
     {
         "id": 3,
@@ -56,7 +58,8 @@
             { "name": "nassar", "twitter_url": "" },
             { "name": "abbey", "twitter_url": "" }
         ],
-        "type": "funder"
+        "type": "funder",
+        "vertical": "funding"
     },
     {
         "id": 4,
@@ -74,7 +77,8 @@
             { "name": "nassar", "twitter_url": "" },
             { "name": "abbey", "twitter_url": "" }
         ],
-        "type": "funder"
+        "type": "funder",
+        "vertical": "video infrastructure"
     },
     {
         "id": 5,
@@ -92,7 +96,8 @@
             { "name": "nassar", "twitter_url": "" },
             { "name": "abbey", "twitter_url": "" }
         ],
-        "type": "funder"
+        "type": "funder",
+        "vertical": "data infrastructure"
     },
     {
         "id": 6,
@@ -110,7 +115,8 @@
             { "name": "nassar", "twitter_url": "" },
             { "name": "abbey", "twitter_url": "" }
         ],
-        "type": "funder"
+        "type": "funder",
+        "vertical": "data infrastructure"
     },
     {
         "id": 7,
@@ -128,7 +134,8 @@
             { "name": "nassar", "twitter_url": "" },
             { "name": "abbey", "twitter_url": "" }
         ],
-        "type": "funder"
+        "type": "funder",
+        "vertical": "data infrastructure"
     },
     {
         "id": 8,
@@ -146,7 +153,8 @@
             { "name": "nassar", "twitter_url": "" },
             { "name": "abbey", "twitter_url": "" }
         ],
-        "type": "funder"
+        "type": "funder",
+        "vertical": "smart contract platform"
     },
     {
         "id": 9,
@@ -164,7 +172,8 @@
             { "name": "nassar", "twitter_url": "" },
             { "name": "abbey", "twitter_url": "" }
         ],
-        "type": "funder"
+        "type": "funder",
+        "vertical": "identity"
     },
     {
         "id": 10,
@@ -182,7 +191,8 @@
             { "name": "nassar", "twitter_url": "" },
             { "name": "abbey", "twitter_url": "" }
         ],
-        "type": "funder"
+        "type": "funder",
+        "vertical": "DeFi protocol"
     },
     {
         "id": 11,
@@ -199,6 +209,7 @@
         "team": [
             { "name": "gabriel", "twitter_url": "" }
         ],
-        "type": "funded"
+        "type": "funded",
+        "vertical": "social media"
     }
 ]
